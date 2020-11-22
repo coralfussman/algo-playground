@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Palindrome from "./Palindrome";
-
+import TwoNumber from "./TwoNumber";
 function App() {
   return (
     <div className="App">
@@ -9,6 +9,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <Palindrome />
+          <TwoNumber />
+          <ValidSub />
         </p>
         <a
           className="App-link"
