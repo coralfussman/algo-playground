@@ -14,6 +14,14 @@ export default function Fib() {
     return n > 1 ? firstTwo[1] : firstTwo[0];
   };
 
+  const getNthFib2 = (n) => {
+    const lastTwo = [0, 1];
+    let counter = 3;
+    while (counter <= n) {
+      const nextFib = lastTwo[0];
+    }
+  };
+
   return (
     <div>
       <h2>{getNthFib}</h2>
